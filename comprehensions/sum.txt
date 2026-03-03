@@ -1,0 +1,23 @@
+comprehensions make execution faster sometimes
+
+- clean format to write code 
+
+basically : comprehensions are a concise way of creating 
+- lists, 
+- sets, 
+- dictionaries 
+- generators
+using just a single line of code 
+
+uses:- 
+- filtering items
+- transforming items
+- creating new collections
+- flatten nested structures 
+
+
+Types of comprehensions:-
+1. lists
+2. sets
+3. dictionaries
+4. generators
