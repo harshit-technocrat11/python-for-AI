@@ -1,0 +1,11 @@
+benefits : 
+
+-you save memory 
+-  when u wanna stream thru the iterable 
+- lazy evaluation ( gets the items one by one )
+
+
+generators  (expr for item in iterable if condition)
+
+use of 
+YIELD 
