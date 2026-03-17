@@ -1,4 +1,13 @@
 # generator - function
+# can only be invoked using a next() fn
+
+# ⚡ Real-world analogy
+
+# Think of yield like:
+
+# A Netflix stream 🍿
+# Instead of downloading the whole movie (return),
+# you watch it chunk by chunk (yield).
 
 def serve_chai():
     yield "Cup 1: Masala chai"
@@ -32,3 +41,13 @@ print(next(chai))  #cup 2
 
 # next() - pointer moves
 print(chai)
+
+def gen():
+    yield 1
+    yield 2
+
+# instance
+g =  gen()
+
+print(next(g))
+print(next(g))
